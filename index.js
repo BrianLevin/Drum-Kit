@@ -1,9 +1,9 @@
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
-
+// loop through all the buttons with the class of drum
 for (var i = 0; i < numberOfDrumButtons; i++) {
-
+//// event listener for eton that is clicked on
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-
+// the value of the letter of each button when pressed
     var buttonInnerHTML = this.innerHTML;
 
     makeSound(buttonInnerHTML);
@@ -13,7 +13,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
   });
 
 }
-
+//pressing on the keyboard
 document.addEventListener("keypress", function(event) {
 
   makeSound(event.key);
@@ -22,7 +22,7 @@ document.addEventListener("keypress", function(event) {
 
 });
 
-
+// make sounfd
 function makeSound(key) {
 
   switch (key) {
@@ -67,11 +67,11 @@ function makeSound(key) {
   }
 }
 
-
+// button animation by clicking the currentkey
 function buttonAnimation(currentKey) {
 
   var activeButton = document.querySelector("." + currentKey);
-
+// adding the pressed class when button is clicked
   activeButton.classList.add("pressed");
 
   setTimeout(function() {
