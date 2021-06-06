@@ -14,7 +14,7 @@ A Javascript  application that lets the users  click with a mouse or a key  each
  
  These are differant sounds each button will make when clicked:
  
-![Events Screenshot](https://drive.google.com/file/d/1UjyVS5TsmuHTYbb052fLtU1xjosxhSly/view?usp=sharing)
+## Click [here](https://drive.google.com/file/d/1UjyVS5TsmuHTYbb052fLtU1xjosxhSly/view?usp=sharing)
   
   
 
